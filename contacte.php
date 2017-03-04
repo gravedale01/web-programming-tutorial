@@ -80,6 +80,23 @@
                         <input type="hidden" name="as_sitesearch" value="fasttrackit.org">
                         <input type="submit" value="Search">
                     </form>
+
+                                        <?php
+                                        echo "Suma este";
+                                        echo 4+3;
+                                        $a=4;
+                                        $b=5;
+                                        echo "Salut";
+                                        echo $name;
+                                        $name;
+                                        $firstname = "Nicolae";
+                                        echo "<br>" $firstName . " " . $name;
+                                        function getName (){
+                                        return $firstName . " " . $name;
+                                        }
+                                        echo "<br>Nume Complet: " . getName($firstName, $name)
+                                        ?>
+
                 </div>
             </div>
         </div>
